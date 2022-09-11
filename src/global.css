@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
-  margin-top: .5rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.navbar {
+  margin-top: 1rem!important;
+  margin: 0 auto;
 }

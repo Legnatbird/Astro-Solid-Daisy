@@ -1,10 +1,13 @@
+import Input from "./Input"
+
 export default function NavBar() {
   return (
     <div data-theme="cupcake" className="navbar bg-base-100 shadow-md rounded-box w-4/5">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="btn btn-ghost normal-case text-xl">Muffin Store</a>
       </div>
       <div className="flex-none">
+        <Input />
         <div className="dropdown dropdown-end">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
             <div className="indicator">

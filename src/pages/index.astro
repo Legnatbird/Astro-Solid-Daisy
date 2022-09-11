@@ -1,13 +1,10 @@
 ---
 import Layout from '../layouts/BaseLayout.astro';
-import Container from '../components/Container';
 import NavBar from '../components/NavBar';
-import Input from '../components/Input';
+import Carrousel from '../components/Carrousel';
 ---
 
 <Layout title="Inicio">
-	<Container >
-		<NavBar/>
-		<Input client:load/>
-	</Container>
+		<NavBar client:visible/>
+		<Carrousel />
 </Layout>
