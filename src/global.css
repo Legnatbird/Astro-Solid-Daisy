@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 .navbar {
-  margin-top: 1rem!important;
   margin: 0 auto;
+  margin-top: 1rem;
+}
+.card {
+  margin: 0 auto;
+  margin-top: 1rem;
 }

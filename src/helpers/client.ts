@@ -1,9 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
 
-interface Data {
-  id: string
-}
-
 const options = {
   schema: 'public',
   headers: { 'x-my-custom-header': 'Store' },
@@ -18,5 +14,5 @@ const supabase = createClient(
   options
 );
 
-const { data, error } = await supabase.from('Amorcito').select();
-export { data, error };
+const { data } = await supabase.from('Products').select();
+export { data };
